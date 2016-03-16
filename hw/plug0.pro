@@ -1,4 +1,4 @@
-update=Seg 05 Out 2015 06:59:23 BRT
+update=Sáb 05 Mar 2016 18:24:58 BRT
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,6 +61,5 @@ LibName29=contrib
 LibName30=valves
 LibName31=microcontroller
 LibName32=linear_regulator
-LibName33=/home/familia/projetos/pessoais/plugfects/devices/plughack/hw/plughack
-LibName34=/home/familia/projetos/pessoais/plugfects/devices/pluglib/audio/codec
-LibName35=/home/familia/projetos/pessoais/plugfects/devices/pluglib/analog/ampop
+LibName33=/home/familia/projetos/pessoais/plugfects/devices/pluglib/audio/codec
+LibName34=/home/familia/projetos/pessoais/plugfects/devices/pluglib/analog/ampop
