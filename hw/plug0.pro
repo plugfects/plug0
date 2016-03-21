@@ -1,4 +1,4 @@
-update=Sáb 05 Mar 2016 18:24:58 BRT
+update=Seg 21 Mar 2016 08:41:19 BRT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../pluglib/power;../../pluglib/processing;../../pluglib/analog;../../pluglib/audio
@@ -61,5 +59,6 @@ LibName29=contrib
 LibName30=valves
 LibName31=microcontroller
 LibName32=linear_regulator
-LibName33=/home/familia/projetos/pessoais/plugfects/devices/pluglib/audio/codec
-LibName34=/home/familia/projetos/pessoais/plugfects/devices/pluglib/analog/ampop
+LibName33=codec
+[general]
+version=1

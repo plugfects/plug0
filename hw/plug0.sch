@@ -30,15 +30,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:microcontroller
 LIBS:linear_regulator
-LIBS:plughack
 LIBS:codec
-LIBS:ampop
 LIBS:plug0-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -49,33 +47,33 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 6150 3450 1400 2300
+S 3050 6350 2200 1050
 U 55AF6B4A
 F0 "Codec" 60
-F1 "../../plugmodules/audio/codec/tlv320aic3120.sch" 60
+F1 "../../plugmodules/audio/codec/pcm3070.sch" 60
 $EndSheet
 $Sheet
-S 8700 3300 1400 2300
-U 55AF6B5D
-F0 "AnalogAudioFE" 60
-F1 "../../plugmodules/audio/codec_buffer_input.sch" 60
-$EndSheet
-$Sheet
-S 6100 850  1400 2150
+S 7000 2800 1400 2150
 U 55AF6B7F
 F0 "DataStorage" 60
 F1 "file55AF6B7E.sch" 60
 $EndSheet
 $Sheet
-S 950  800  1250 2500
+S 950  800  1700 850 
 U 55AF6B8E
 F0 "PowerSupply" 60
-F1 "../../plugmodules/power/linear3v3small.sch" 60
+F1 "../../plugmodules/power/switchedchargepump3v3small.sch" 60
 $EndSheet
 $Sheet
-S 3400 800  2100 4650
+S 2950 2800 2900 2950
 U 55AF6C04
 F0 "ProcessingUnit" 60
 F1 "../../plugmodules/processing/stm32f4x1R.sch" 60
+$EndSheet
+$Sheet
+S 4250 600  1500 1350
+U 56EFDA95
+F0 "BatteryManagement" 60
+F1 "file56EFDA94.sch" 60
 $EndSheet
 $EndSCHEMATC
