@@ -1,4 +1,4 @@
-update=Seg 21 Mar 2016 08:41:19 BRT
+update=Sex 25 Mar 2016 14:15:42 BRT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../../pluglib/power;../../pluglib/processing;../../pluglib/analog;../../pluglib/audio
@@ -60,5 +62,4 @@ LibName30=valves
 LibName31=microcontroller
 LibName32=linear_regulator
 LibName33=codec
-[general]
-version=1
+LibName34=/home/familia/projetos/pessoais/libcomp/stm32fxxxz
