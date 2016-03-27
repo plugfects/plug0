@@ -82,7 +82,7 @@ $Sheet
 S 3000 2250 2950 4200
 U 55AF6C04
 F0 "ProcessingUnit" 60
-F1 "../../plugmodules/processing/mk82fn256vll15.sch" 60
+F1 "../../plugmodules/processing/stm32f446z.sch" 60
 F2 "USB_P" I L 3000 2750 60 
 F3 "USB_N" I L 3000 2900 60 
 F4 "SDIO_CMD" I L 3000 3100 60 
@@ -136,4 +136,15 @@ U 56EFDA95
 F0 "BatteryManagement" 60
 F1 "file56EFDA94.sch" 60
 $EndSheet
+$Comp
+L JACK_2P J1
+U 1 1 56F7E93E
+P 1200 3250
+F 0 "J1" H 850 3050 50  0000 C CNN
+F 1 "JACK_2P" H 1050 3500 50  0000 C CNN
+F 2 "" H 1200 3250 50  0001 C CNN
+F 3 "" H 1200 3250 50  0000 C CNN
+	1    1200 3250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
